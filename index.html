@@ -812,7 +812,7 @@
         class="mbr-overlay"
         style="opacity: 0.3; background-color: rgb(0, 0, 0)"
       ></div>
-      <div class="container-fluid">
+      <div class="container-fluid dream-house-container">
         <div class="row">
           <div class="content-wrap col-12 col-md-8">
             <h1
@@ -837,6 +837,9 @@
       </div>
     </section>
     <style>
+      .dream-house-container{
+        top: -50px;
+      }
       .cid-u01bmjCqNQ {
         padding-top: 5rem;
         padding-bottom: 5rem;
@@ -853,6 +856,11 @@
         height: 100%;
         position: absolute;
         top: 0;
+      }
+      @media (max-width: 1300px) {
+        .dream-house-container{
+          top: -150px !important;
+        }
       }
       @media (max-width: 767px) {
         .cid-u01bmjCqNQ .image-wrapper {
